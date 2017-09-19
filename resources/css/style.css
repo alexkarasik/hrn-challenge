@@ -52,3 +52,93 @@ html {
   font-size: 180%;
   margin-right: 10px;
 }
+
+/* Header 2 */
+
+.body-header {
+  text-align: center;
+}
+
+.body-header .options li {
+  display: inline-block;
+  margin-left: 3px;
+  color: #d0eaef;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30%;
+  padding-bottom: 20px;
+}
+
+/* Boxes */
+.boxes{
+  position: relative;
+  text-align: center;
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  margin: 5px;
+  border: .5px solid rgba(0, 0, 0, .2) round;
+  align-items: center;
+  background-color: #F6FBFC;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.box-pair-1{
+  padding-top: 200px;
+  padding-left: 200px;
+  margin: auto;
+}
+
+.box-pair-2{
+  padding-left: 200px;
+  margin: auto;
+}
+
+.box1 {
+  display: inline-block;
+  margin: auto;
+}
+
+.box2 {
+  display: inline-block;
+  margin: auto;
+}
+
+.box3 {
+  display: inline-block;
+  margin: auto;
+}
+
+.box4 {
+  display: inline-block;
+  margin: auto;
+}
+
+h2 {
+    color: #0198E1;
+      padding-bottom: 10px;
+}
+
+h5 {
+  color: #0198E1;
+  padding-bottom: 20px;
+}
+
+h6{
+  color: #0198E1;
+  padding-bottom: 5px;
+}
+
+.book-now{
+  padding: 20px 0;
+  background-color: #0198E1;
+  color: #fff;
+}
+
+p {
+  font-size: 15px;
+  color: #cccccc;
+}
