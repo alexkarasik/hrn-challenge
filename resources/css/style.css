@@ -76,46 +76,19 @@ html {
 }
 
 .box {
-  width: 400px;
-  height: 300px;
+  width: 20%;
+  height: auto;
   margin: 5px;
   border: .5px solid rgba(0, 0, 0, .2) round;
   align-items: center;
   background-color: #F6FBFC;
   font-size: 30px;
-  padding-top: 30px;
-}
-
-.box-pair-1{
-  padding-top: 200px;
-  padding-left: 200px;
-  margin: auto;
-}
-
-.box-pair-2{
-  padding-left: 200px;
-  margin: auto;
-}
-
-.box1 {
+  padding-top: 90px;
+  list-style-type: none;
   display: inline-block;
-  margin: auto;
+  text-align: center;
 }
 
-.box2 {
-  display: inline-block;
-  margin: auto;
-}
-
-.box3 {
-  display: inline-block;
-  margin: auto;
-}
-
-.box4 {
-  display: inline-block;
-  margin: auto;
-}
 
 h2 {
     color: #0198E1;
@@ -124,7 +97,7 @@ h2 {
 
 h5 {
   color: #0198E1;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 h6{
@@ -132,13 +105,96 @@ h6{
   padding-bottom: 5px;
 }
 
-.book-now{
+p {
+  font-size: 15px;
+  color: #cccccc;
+}
+
+
+#box1 {
+  display: inline-block;
+  margin: auto;
+  float: left;
+  padding-bottom: 20px;
+}
+
+#box2 {
+  display: inline-block;
+  margin: auto;
+  float: right;
+  margin-right: 200px;
+}
+
+#box3 {
+  display: inline-block;
+  margin: auto;
+  float: left;
+}
+
+#box4 {
+  display: inline-block;
+  margin: auto;
+  float: right;
+  margin-right: 200px;
+}
+
+#box2 .book-now {
+  background-color: red;
+}
+
+#box4 .book-now {
+  margin-top: 16px;
+  padding: 20px 0;
+}
+
+#box2 p {
+  color: red;
+  font-family: 'Lato', sans-serif;
+  font-size: 60%;
+}
+
+.box .book-now {
   padding: 20px 0;
   background-color: #0198E1;
   color: #fff;
 }
 
-p {
-  font-size: 15px;
-  color: #cccccc;
+.button {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  align: center;
+  padding-bottom: 300px;
 }
+
+#compare-button {
+  margin-top: 100px;
+  display: block;
+
+}*/
+
+
+
+/* Footer */
+/*
+footer {
+  background-color: #1a1a1a;
+  height: 20vh;
+}
+
+footer .pages .page-links {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 40%;
+  display: inline-block;
+  align-items: center;
+}
+
+footer .pages .page-links li {
+    display: inline-block;
+    padding-top: 100px;
+    padding-left: 120px;
+    margin-left: 30px;
+    font-weight: lighter;
+
+}*/
