@@ -109,19 +109,12 @@ p {
   font-size: 15px;
   color: #cccccc;
 }
-
-<<<<<<< HEAD
 .box .box2 .book-now {
   background-color: red;
 }
 
 
 
-.box2 p {
-  color: red;
-  font-family: 'Lato', sans-serif;
-  font-size: 60%;
-=======
 .box2 p {
   color: red;
   font-family: 'Lato', sans-serif;
@@ -187,7 +180,6 @@ footer li {
 footer .row .pages {
   text-align: center;
   margin-left: 36%;
->>>>>>> body
 }
 
 footer .row .social-links {
@@ -195,10 +187,6 @@ footer .row .social-links {
   margin-right: 45%;
 }
 
-<<<<<<< HEAD
-
-
-=======
 .footer-nav {
   list-style: none;
   float: left;
@@ -219,7 +207,6 @@ footer .row .social-links {
 .social-links li:last-child {
   margin-right: 0;
 }
->>>>>>> body
 
 .footer-nav li a:link,
 .footer-nav li a:visited,
