@@ -1,21 +1,44 @@
 /* Big tablet to 1200px (widths smallen than the 1140px row ) */
 @media only screen and (max-width: 1200px) {
+  .lorem-ipsum p {
+    display: none;
+  }
 
+  .boxes{
+    padding-bottom: 200px;
+  }
+
+
+  .box {
+    width: 40%;
+  }
+
+  .body-header{
+    padding-bottom: 50px;
+  }
+
+  #btnExpand{
+    margin-left: 40px;
+    top: 10px;
+    right: 120px;
+    margin-top: 100px;
+  }
+
+  .spacing2 {
+    height: auto;
+  }
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
     body { font-size: 80%; }
     footer {
-      
+
     }
 }
 
 /* Small phones to small tablets: from 481 to 767 px */
-@media only screen and (max-width: 767px) {
-  body { font-size: 60%; }
 
-}
 
 /* Small phones from 0 to 480px */
 @media only screen and (max-width: 480px) {

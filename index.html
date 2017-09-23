@@ -9,8 +9,10 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 
     <title>HRN Mock Up</title>
 
@@ -22,10 +24,10 @@
         </div>
         <div class="header-pages">
           <ul class="main-nav">
-            <li><i class="ion-ios-person icon-small"></i>Single Atendee</li>
-            <li><i class="ion-ios-people icon-small"></i>Group Tickets</li>
-            <li><i class="ion-arrow-move icon-small"></i>Investors</li>
-            <li><i class="ion-location icon-small"></i>StartUps</li>
+            <li><i class="ion-ios-person icon-small"></i><a href="#single-attendee"><p>Single Atendee</p></a></li>
+            <li><i class="ion-ios-people icon-small"></i><a href="#group-tickets"><p>Group Tickets</p></a></li>
+            <li><i class="ion-arrow-move icon-small"></i><a href="#investors"><p>Investors</p></a></li>
+            <li><i class="ion-location icon-small"></i><a href="#startups"><p>StartUps</p></a></li>
           </ul>
         </div>
       </nav>
@@ -33,8 +35,12 @@
 
   <div class="body-header">
       <ul class="options">
-        <li>Early Bird Sold Out / </li>
-        <li>Summer Saver <i class="ion-clock icon-small"></i>/ </li>
+        <li>Early Bird <p class="colored">Sold Out</p> / </li>
+        <li class="summer">Summer Saver <i class="ion-clock icon-small"></i>
+            <p id="until">Until</p>
+            <p id="date">2018</p> /
+
+        </li>
         <li>Regular / </li>
         <li>Late / </li>
         <li> Onsite Registration </li>
@@ -51,6 +57,14 @@
         <h2><i class="ion-social-euro"></i>1595</h2>
         <p>Save <i class="ion-social-euro"></i>300</p>
         <h5>Until August 31</h5>
+        <div class="content">
+          <ul>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+          </ul>
+        </div>
         <div class="book-now">
           Book Now
         </div>
@@ -61,6 +75,14 @@
         <h6>Expo Only</h6>
         <h2><i class="ion-social-euro"></i>299</h2>
         <h5>Until October</h5>
+        <div class="content">
+          <ul>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+          </ul>
+        </div>
         <div class="book-now">
           Book Now
         </div>
@@ -71,16 +93,32 @@
         <h2><i class="ion-social-euro"></i>1295</h2>
         <p>Save <i class="ion-social-euro"></i>300 from the Summer Saver</p>
         <h5>Until October</h5>
+        <div class="content">
+          <ul>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+          </ul>
+        </div>
         <div class="book-now">
           Book Now
         </div>
     </div>
 
 
-    <div class="col span-1-of-4 box box3">
+    <div class="col span-1-of-4 box box4">
         <h6>Standard Conference & Expo</h6>
         <h2><i class="ion-social-euro"></i>1695</h2>
-        <h5>Do you have a promo code?</h5>
+        <p>Do you have a promo code?</p>
+        <div class="content">
+          <ul>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+            <li><p>Lorem Ipsum</p></li>
+          </ul>
+        </div>
         <div class="book-now">
           Book Now
         </div>
@@ -88,7 +126,11 @@
 
   </div>
 
-  <a href="#" class="button"> Compare Benefits</a>
+  <div class="spacing"></div>
+
+  <button id="btnExpand"> Compare Benefits</button>
+
+<div class="spacing2"></div>
 
   <footer>
     <div class="row">
@@ -113,8 +155,18 @@
       </div>
     </div>
 
+    <div class="author">
+      <p>
+        Copyright &copy; 2017 by Alex Karasik. All right reserved.
+      </p>
+    </div>
+
 
   </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
   </body>
