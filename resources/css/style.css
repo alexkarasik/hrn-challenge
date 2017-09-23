@@ -24,6 +24,10 @@ html {
   height: 50px;
   background-color: #080808;
 }
+
+.header-black i {
+  display: none;
+}
 .header-pages {
   height: 60px;
   background-color: #F6FBFC;
@@ -81,6 +85,7 @@ html {
   text-transform: uppercase;
   font-size: 30%;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 
 .body-header .options li p {
