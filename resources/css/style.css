@@ -21,38 +21,46 @@ html {
 /*  HEADER */
 /* --------------------------------------- */
 .header-black {
-  height: 50px;
+  height: 54px;
   background-color: #080808;
 }
 
 .header-black i {
   display: none;
 }
+
 .header-pages {
   height: 60px;
   background-color: #F6FBFC;
-    text-align: center;
+  text-align: center;
 }
 
 .header-pages .main-nav li {
   display: inline-block;
   margin-left: 80px;
-  padding: 10px 0;
+  padding: 5px 0;
   color: #cccccc;
   text: #cccccc;
   text-transform: uppercase;
   font-size: 30%;
 }
 
+
 .header-pages .main-nav li p {
   padding-top: 7px;
   text-decoration: none;
   font-size: 100%;
-  float: right;
+  float:right;
 }
 
 /*.header-pages .main-nav li i:hover,
 .header-pages .main-nav li i:active*/
+
+.header-pages .main-nav li a:hover,
+.header-pages .main-nav li a:active
+ {
+  color: #0198E1;
+}
 .header-pages .main-nav li p:hover,
 .header-pages .main-nav li p:active
  {
@@ -101,7 +109,7 @@ html {
 
 
 .body-header .options li #until {
-  font-size: 80%;
+  font-size: 100%;
   color: #080808;
   background-color: #fff;
   bottom: 10px;
@@ -115,7 +123,7 @@ html {
   position: relative;
   right: 20px;
   top: 8px;
-  margin-left: -16px;
+  margin-left: -25px;
 }
 
 .body-header .options li:hover,
@@ -134,7 +142,7 @@ html {
 .boxes{
   position: relative;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 200px;
   padding-top: 50px;
   margin-bottom: 100px;
   max-height: 200px;
@@ -156,12 +164,26 @@ html {
 .box2 p {
   color: red;
   font-family: 'Lato', sans-serif;
-  font-size: 60%;
+  font-size: 55%;
 }
 
 
 .box4 p {
-  padding-bottom: 67px;
+  padding-bottom: 30px;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 12px 10px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+  font-size: 11px;
 }
 
 .box .book-now {
@@ -184,8 +206,8 @@ html {
   background-color: red;
 }
 
-.box3 .book-now {
-  margin-top: -8px;
+.box3 h5 {
+  padding-bottom: 67px;
 }
 
 .box3 h6 {
@@ -236,51 +258,64 @@ p {
 #btnExpand {
 	background: #fff;
 	border: 2px solid #0198E1;
+  border-radius: 4px;
   align-items: center;
-  padding: 10px 30px;
+  padding: 10px 35px;
   text-decoration: none;
   text-align: center;
   color: #0198E1;
   font-size: 18px;
   font-weight: bold;
   position: relative;
-  top: 300px;
-  right: 580px;
+  top: 100px;
+  left: 600px;
+  margin-bottom: 200px;
 }
 
-/* FOOTEr */
+/* WORKDAY-LOGOS */
+.workday{
+  text-align: center;
+  margin-top: auto;
+}
+
+.workday-logo{
+  width: 100px;
+}
+
+/* FOOTER */
 
 
 footer {
   background-color: #080808;
   position : absolute;
-  width: 100%;
-  height: 30%;
-  position: absolute;
   right: 0;
-  margin-top: 300px;
+  margin-top: 50px;
   left: 0;
   text-align: center;
 }
+
 
 footer li {
   font-size: 12px;
 }
 
 footer .row .pages {
+  position: relative;
   text-align: center;
-  margin-left: 36%;
+  margin-left: 40%;
 }
 
 footer .row .social-links {
+  position: relative;
   text-align: center;
-  margin-right: 45%;
+  margin-right: 42%;
   padding-bottom: 20px;
 }
 
 footer .author p {
-  padding-right: 45px;
-  font-size: 40%;
+  position: relative;
+  font-size: 30%;
+  text-align: center;
 }
 
 .footer-nav {
