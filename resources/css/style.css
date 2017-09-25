@@ -105,8 +105,8 @@ html {
   font-size: 100%;
   text-transform: uppercase;
   padding: 3px;
+  padding-top: 2px;
 }
-
 
 .body-header .options li #until {
   font-size: 100%;
@@ -169,7 +169,7 @@ html {
 
 
 .box4 p {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 input[type=text], select {
@@ -214,14 +214,23 @@ input[type=text] {
   font-size: 50%;
 }
 
+.box4 h2 {
+  margin-bottom: 15px;
+}
+
 .box4 h6 {
-  font-size: 60%;
+  font-size: 55%;
+}
+
+.box4 p {
+  margin-bottom: 7px;
 }
 
 h2 {
     color: #0198E1;
     padding-bottom: 10px;
     font-size: 150%;
+    letter-spacing: 2px;
 }
 
 h5 {
@@ -302,17 +311,17 @@ footer li {
 footer .row .pages {
   position: relative;
   text-align: center;
-  margin-left: 40%;
+  margin-left: 41%;
 }
 
 footer .row .social-links {
   position: relative;
   text-align: center;
-  margin-right: 42%;
+  margin-right: 43%;
   padding-bottom: 20px;
 }
 
-footer .author p {
+footer  {
   position: relative;
   font-size: 30%;
   text-align: center;
@@ -326,6 +335,7 @@ footer .author p {
 .social-links {
   list-style: none;
   float: right;
+  color: #fff;
 }
 
 .footer-nav li,
@@ -379,4 +389,13 @@ footer .author p {
 
 .ion-social-instagram:hover {
   color: #517fa4;
+}
+
+
+footer .copyright .information  li{
+  position: relative;
+  font-size: 130%;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
 }
