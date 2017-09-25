@@ -10,30 +10,20 @@
 // 	$(".header").trigger('click');
 // })
 
-function buttonText() {
-  let change = document.getElementById("btnExpand");
-  if (change.innerHTML == "Compare Benefits") {
-    change.innerHTML = "Close";
-  } else {
-    change.innerHTML = "Compare Benefits";
-  }
-}
-
-$(document).ready(function(){
-  $("#btnExpand").click(function(){
-    $(".content").show();
-  });
-  $("#btnExpand").click(function(){
-    $(".content").hide();
-  });
-});
-
-//
-// function buttonText(){
-//   let x = document.getElementByClassName('content');
-//     if (x.style.display === 'none') {
-//       x.style.display = 'block';
-//     } else {
-//       x.style.display='none';
-//     }
+// function buttonText() {
+//   let change = document.getElementById("btnExpand");
+//   if (change.innerHTML == "Compare Benefits") {
+//     change.innerHTML = "Close";
+//   } else {
+//     change.innerHTML = "Compare Benefits";
+//   }
 // }
+//
+// $(document).ready(function(){
+//   $("#btnExpand").click(function(){
+//     $(".content").show();
+//   });
+//   $("#btnExpand").click(function(){
+//     $(".content").hide();
+//   });
+// });
