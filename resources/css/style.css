@@ -145,7 +145,7 @@ html {
   margin-left: 200px;
   padding-top: 50px;
   margin-bottom: 100px;
-  max-height: 200px;
+  max-height: 300px;
 }
 
 .box {
@@ -165,6 +165,14 @@ html {
   color: red;
   font-family: 'Lato', sans-serif;
   font-size: 55%;
+}
+
+.boxes .box2 ul li p {
+  color: #ccc;
+}
+
+.boxes .box4 ul li :first-child {
+  padding-top: 30px;
 }
 
 
@@ -202,6 +210,13 @@ input[type=text] {
   display: none;
 }
 
+.boxes .content ul li {
+  padding-bottom: 8px;
+  font-size: 18px;
+  position: relative;
+  list-style-type: none;
+}
+
 .box2 .book-now {
   background-color: red;
 }
@@ -225,6 +240,7 @@ input[type=text] {
 .box4 p {
   margin-bottom: 7px;
 }
+
 
 h2 {
     color: #0198E1;
