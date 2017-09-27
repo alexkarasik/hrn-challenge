@@ -197,7 +197,7 @@ input[type=text] {
   font-size: 50%;
 }
 
-.boxes .content ul li {
+.boxes .content {
   list-style: none;
   display: none;
 }
@@ -264,7 +264,7 @@ p {
 
 /* Button */
 
-#btnExpand {
+.btnExpand {
 	background: #fff;
 	border: 2px solid #0198E1;
   border-radius: 4px;

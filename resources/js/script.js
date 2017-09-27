@@ -18,12 +18,12 @@
 //     change.innerHTML = "Compare Benefits";
 //   }
 // }
-//
-// $(document).ready(function(){
-//   $("#btnExpand").click(function(){
-//     $(".content").show();
-//   });
-//   $("#btnExpand").click(function(){
-//     $(".content").hide();
-//   });
-// });
+
+$(document).ready(function(){
+  $(".btnExpand").click(function(){
+    $(".content").show();
+  });
+  $(".btnExpand").click(function(){
+    $(".content").hide();
+  });
+});
