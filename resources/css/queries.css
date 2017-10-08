@@ -106,6 +106,7 @@
   }
 
   .header-pages .main-nav {
+
     padding-right: 120px;
     height: 100px;
   }
@@ -116,7 +117,7 @@
     /*margin-bottom: 25px;*/
     float: right;
     display: inline-block;
-    padding-left: 4px;
+    padding-left: none;
     padding-right: 8px;
   }
 
@@ -148,6 +149,10 @@
     padding-right: 27px;
   }
 
+  span {
+    display: none;
+  }
+
   .body-header .options {
     padding-top: 30px;
     font-size: 170%;
@@ -163,16 +168,16 @@
     color: #080808;
     background-color: #fff;
     position: relative;
-    margin-left: -8px;
-    bottom: 4px;
+    margin-left: 8px;
+    bottom: 20px;
   }
 
   .body-header .options li #date {
     color: red;
     background-color: #fff;
     position: relative;
-    left: 16px;
-    top: -4px;
+    left: -18px;
+    top: 8px;
     margin-left: -16px;
     font-weight: bold;
   }
@@ -250,5 +255,9 @@
 
   footer .copyright .information li {
     display: block;
+  }
+
+  footer span{
+    display: none;
   }
 }
