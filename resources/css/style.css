@@ -61,8 +61,6 @@ html {
   float:right;
 }
 
-
-
 .header-pages .main-nav li:hover a,
 .header-pages .main-nav li:hover i,
 .header-pages .main-nav li:hover p
@@ -179,7 +177,6 @@ span {
   display: inline-block;
   box-sizing: border-box;
 }
-
 
 .box2 p {
   color: red;

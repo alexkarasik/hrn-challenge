@@ -106,9 +106,16 @@
   }
 
   .header-pages .main-nav {
-
     padding-right: 120px;
-    height: 100px;
+    height: 70px;
+  }
+
+  .header-pages .main-nav .ion-ios-people {
+    right: 120px;
+  }
+
+  .header-pages .main-nav .ion-ios-person{
+    right: 25px;
   }
 
 
